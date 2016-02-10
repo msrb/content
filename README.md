@@ -27,14 +27,14 @@ The website consists of several sections. Each section contains a set of pages.
 Each content file must start with an initial section in YAML syntax describing the title and where the file belongs.
 
 
-#### An example for DevAssistant
+#### An example for Vagrant
 
 Every file except the main page would start with:
 
 ```yaml
 ---
 title: Some Title      # This title is shown in menus
-page: devassistant     # This is an ID of your content (select value from the list below)
+page: Vagrant          # This is an ID of your content (select value from the list below)
 order: 1               # Optional - order in menu
 ---
 ```
@@ -43,8 +43,8 @@ The main page would contain:
 
 ```yaml
 ---
-title: DevAssistant    # This title is shown in menus
-page: devassistant     # This is an ID of your content (select value from the list below)
+title: Vagrant         # This title is shown in menus
+page: Vagrant          # This is an ID of your content (select value from the list below)
 section: tools         # This page would be linked from the main menu in a group called tools (select value from the list below)
 description: Lorem ipsum...    # a short description to be shown in the section menu
 ---
@@ -73,7 +73,6 @@ First level is a section id. Second level is a page id.
 
 1. tools
   * abrt
-  * devassistant
   * docker
   * vagrant
 
